@@ -1,0 +1,129 @@
+// TODO: change to import baseutil main
+// TODO: cleanup not build src baseutil-css but only custom
+@import '../baseutil-css/src/baseutil-utilities';
+
+/*Components */
+button,
+form,
+input {
+  @extend .mb-1;
+}
+
+button,
+input {
+  @extend .bg-transparent;
+  @extend .border;
+  @extend .fs-7;
+  @extend .me-1;
+  @extend .pe-1;
+  @extend .ps-1;
+}
+
+button,
+input:not([type="checkbox"]):not([type="radio"]) {
+  @extend .h-4;
+}
+
+button,
+input[type='text'] {
+  width: 100%;
+}
+
+button {
+  @extend .letter-spacing-lg;
+  @extend .text-start;
+  @extend .text-uppercase;
+}
+
+button:active,
+button:focus-visible,
+button:hover {
+  @extend .bg-secondary;
+  @extend .border-secondary;
+  @extend .white;
+}
+
+input[disabled=true] {
+  @extend .opacity-50;
+}
+
+input[disabled=true]:active,
+input[disabled=true]:focus-visible,
+input[disabled=true]:hover {
+  // TODO: @basuetil-css add util pointer-events-none
+  pointer-events: none;
+}
+
+input[type='checkbox'] {
+  @extend .me-1;
+}
+
+input[type='checkbox']:hover,
+input[type='checkbox']:hover + span {
+  cursor: pointer;
+}
+
+input[type='number'] {
+  width: 8.0rem;
+}
+
+input:active,
+input:focus-visible,
+input:hover {
+  @extend .border-secondary;
+}
+
+/*Components custom */
+.helper-p5js-container,
+.helper-p5js-sketch,
+.helper-p5js-utils {
+  @extend .d-flex;
+}
+
+// TODO: consider adding padding to helper-p5js-sketch
+.helper-p5js-container {
+  @extend .pb-2;
+  @extend .pe-2;
+  @extend .ps-2;
+  @extend .pt-2;
+  @extend .vh-100;
+}
+
+.helper-p5js-sketch {
+  @extend .align-items-center;
+  @extend .border;
+  @extend .justify-content-center;
+  @extend .overflow-x-scroll;
+  @extend .overflow-y-scroll;
+  @extend .w-100;
+}
+
+.helper-p5js-utils {
+  @extend .flex-column;
+  @extend .me-2;
+  @extend .position-relative;
+
+  max-width: 32.0rem;
+}
+
+.helper-p5js-utils-credits {
+  @extend .bottom-0;
+  @extend .position-absolute;
+  @extend .start-0;
+  @extend .text-uppercase;
+
+  font-size: 1.0rem;
+
+  a {
+    text-transform: none;
+  }
+}
+
+.input-group {
+  @extend .border;
+  @extend .mb-1;
+  @extend .pb-1;
+  @extend .pe-1;
+  @extend .pt-1;
+  @extend .ps-1;
+}
