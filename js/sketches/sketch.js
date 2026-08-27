@@ -41,7 +41,7 @@ const sketch = function(p) {
 
     // TODO: add p5js input labels
     // TODO: consider renaming vars input
-    charsInput = p.createInput("#/-. ");
+    charsInput = p.createInput("//\\\\");
     hasFontVariable = p.createCheckbox('Betűtípus változó', true);
     isBgTransparent = p.createCheckbox('Háttér átlátszó', false);
     isColourInverted = p.createCheckbox('Színek fordított', true);
