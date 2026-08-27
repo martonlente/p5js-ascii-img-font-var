@@ -34,7 +34,7 @@ const sketch = function(p) {
     fwMax = 1000;
     fwMin = 300;
 
-    p5jsSetupCanvas(p, 1080, 1080);
+    p5jsSetupCanvas(p, 1024, 1024);
     p5jsSetupUtil();
 
     const helperP5jsUtils = document.querySelector('.js-helper-p5js-utils');
