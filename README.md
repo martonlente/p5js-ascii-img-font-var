@@ -1,14 +1,16 @@
-# p5js-sketch-utils
+# p5js-ascii-img-font-var
 
-p5js-sketch-utils is a boilerplate and utilities framework that streamlines p5.js projects with tools that help exporting, navigating and organizing sketches.
+p5js-ascii-img-font-var is a tool to for generating ASCII art from images with simple UI controls and variable font support. Unlike traditional ASCII art tools, this project leverages variable font weights for enhanced visual output.
+
+This repository has been created from the [p5js-sketch-utils](https://github.com/martonlente/p5js-sketch-utils) boilerplate and utilties framework by [Márton Lente](https://github.com/martonlente) (me).
 
 ## Description
-I've created this repository as a starting point and utility framework to support local development of new p5.js projects, with common tools for exporting, navigating and organizing sketches in the browser. The project is a local alternative to interactive editors, like the [p5.js Web Editor](https://editor.p5js.org/). It includes a simple UI with canvas, playback control, single image and image sequence export, and a framework to add and manage custom sketches. New sketches can add controls in a modular way, extending the UI seamlessly.
+I've created this repository to support ASCII based image rasterization in art, design and typography projects, with visual controls. It relies on p5.js v2's variable font support to create ASCII images with variablility in font weight. This allows a combination of character- and font weight based rasterization, and enables finer control over contrast and detail in the final image. This often results in more interesting visual outputs than traditional ASCII art.
 
 ## Usage
 
 ### Start a project
-To start using the framework, clone this repository.
+To start using the repository, clone it.
 
 ### Initialize and install dependencies
 To initialize and update the git submodules, run:
@@ -31,33 +33,21 @@ To start the development server to view and edit your sketches, run:
 npm run-script serve
 ```
 
-This will launch a local server, and you can access the controls UI and sketches in your browser at the returned URL. Sketches are automatically reloaded on change.
+This will launch a local server, and you can access the controls UI and sketch in your browser at the returned URL. The sketch is automatically reloaded on change.
 
-### Add a new sketch
-To add a new sketch, create a new JavaScript file in the `sketches` directory. Use the existing `sketch.js` file as an example reference for functionality and structure.
-
-#### Setup sketch canvas
-To setup the sketch canvas, use the bundled `p5jsSetupCanvas` function utility:
+#### Change sketch canvas size
+To change the sketch canvas size, use the bundled `p5jsSetupCanvas` function utility:
 ```
 p5jsSetupCanvas(p, {pxWidth}, {pxHeight}, {true});
 ```
 
-Pass in `true` to enable WebGL rendering for 3D sketches.
-
 Example:
 ```
-p5jsSetupCanvas(p, 1080, 1080, true);
+p5jsSetupCanvas(p, 1024, 1024);
 ```
 
-### Render the new sketch
-To render the new sketch, call an URL with the following format scheme: `http://localhost:3000/?js={sketch-custom}.js`
-
-You can add as many new sketches as you want, and render them independently.
-
 ### Customize and extend controls and utilities
-Add new controls or extend the utilities UI by extending sketch files in the `js` directory. Ensure that your changes align with the existing architecture and modular design.
-
-TODO: add more details
+Add new controls or extend the utilities UI by extending the `sketch.js` file in the `js` directory. Ensure that your changes align with the existing architecture and modular design.
 
 ### Customize styles
 If you want to customize the styles of the controls UI, run:
@@ -69,14 +59,19 @@ to start the SCSS compiler, and add your changes to the `/scss/custom.scss` file
 ## Dependencies
 This project requires Node.js and npm to be installed on your machine.
 
-## Screenshot
-![Screenshot](./screenshot.png)
+## Example
+TODO
+
+## Screen recording
+TODO
 
 ## Version
-1.0.0-alpha
+TODO
 
 ## Credits
 I've started this project at the _University of Győr, [Design Campus](https://designcampus.hu), Graphic Design MA_ in 2026.
 
+The development has been done within the framework of the _Complex Design 2_ course, lead by [Zoltán Halasi](https://www.instagram.com/zedocki/). The program has been first used to generate the vinyl cover artworks for the Hungarian composer _György Kurtág's_ music album compilation (see the _Example_ section for reference).
+
 ## License
-p5js-sketch-utils is licensed under the [Apache 2.0](https://github.com/martonlente/p5js-sketch-utils/blob/main/LICENSE) license.
+p5js-ascii-img-font-var is licensed under the [Apache 2.0](https://github.com/martonlente/p5js-ascii-img-font-var/blob/main/LICENSE) license.
