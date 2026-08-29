@@ -9,8 +9,8 @@ const p5jsSetupCredits = function() {
     Graphic design MA 1<br>
     Márton Lente, Győr 2026<br>
     <br>
-    p5js-sketch-utils v1.0.0-alpha<br>
-    <a href="https://github.com/martonlente/p5js-sketch-utils" target="_blank">Project on GitHub</a> – <a href="https://martonlente.com" target="_blank">martonlente.com</a>`;
+    p5js-ascii-img-font-var TODO<br>
+    <a href="https://github.com/martonlente/p5js-ascii-img-font-var" target="_blank">Project on GitHub</a> – <a href="https://martonlente.com" target="_blank">martonlente.com</a>`;
 
   helperP5jsUtils.appendChild(credits);
 }
