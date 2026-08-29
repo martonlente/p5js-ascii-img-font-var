@@ -42,9 +42,9 @@ const sketch = function(p) {
     // TODO: add p5js input labels
     // TODO: consider renaming vars input
     charsInput = p.createInput("//\\\\");
-    hasFontVariable = p.createCheckbox('Betűtípus változó', true);
-    isBgTransparent = p.createCheckbox('Háttér átlátszó', false);
-    isColourInverted = p.createCheckbox('Színek fordított', true);
+    hasFontVariable = p.createCheckbox('Variable font', true);
+    isBgTransparent = p.createCheckbox('Transparent background', false);
+    isColourInverted = p.createCheckbox('Invert colours', true);
     tilesInput = p.createInput("64", "number");
 
     inputGroupCheckboxes = p.createDiv();
