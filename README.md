@@ -66,7 +66,7 @@ TODO
 TODO
 
 ## Version
-TODO
+0.1.0
 
 ## Credits
 I've started this project at the _University of Győr, [Design Campus](https://designcampus.hu), Graphic Design MA_ in 2026.
