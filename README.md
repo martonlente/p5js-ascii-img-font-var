@@ -84,4 +84,4 @@ p5js-ascii-img-font-var is licensed under the [Apache 2.0](https://github.com/ma
 ![Example 4](./example-4.webp) | ![Example 5](./example-5.webp)
 
 ## Version
-1.0.0-alpha
+1.0.0-alpha.1
