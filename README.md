@@ -60,7 +60,11 @@ to start the SCSS compiler, and add your changes to the `/scss/custom.scss` file
 This project requires Node.js and npm to be installed on your machine.
 
 ## Example
-TODO
+
+![Example 1](./example-1.webp) |
+--- | ---
+![Example 2](./example-2.webp) | ![Example 3](./example-3.webp)
+![Example 4](./example-4.webp) | ![Example 5](./example-5.webp)
 
 ## Screen recording
 TODO
