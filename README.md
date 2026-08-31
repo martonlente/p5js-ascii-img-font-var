@@ -67,7 +67,7 @@ This project requires Node.js and npm to be installed on your machine.
 ![Example 4](./example-4.webp) | ![Example 5](./example-5.webp)
 
 ## Screen recording
-![Screen recording](./screen-recording-v2.gif)
+![Screen recording](./screen-recording-4x-v2.gif)
 
 ## Version
 0.1.0
