@@ -71,6 +71,8 @@ I've started this project at the _University of Győr, [Design Campus](https://d
 
 The development has been done within the framework of the _Complex Design 2_ course, lead by [Zoltán Halasi](https://www.instagram.com/zedocki/). The program has been first used to generate the vinyl cover artworks for the Hungarian composer _György Kurtág's_ fictitious music album compilation (see the _Examples_ section for reference).
 
+This project has also been inspired by Tim Rodenbröker's [courses](https://trcc.timrodenbroeker.de/courses) on creative coding.
+
 ## License
 p5js-ascii-img-font-var is licensed under the [Apache 2.0](https://github.com/martonlente/p5js-ascii-img-font-var/blob/main/LICENSE) license.
 
