@@ -74,7 +74,7 @@ to start the SCSS compiler, and add your changes to the `/scss/custom.scss` file
 ## Version
 0.1.0
 
-## Credits
+## Authors and acknowledgement
 This project uses the [Recursive](https://github.com/arrowtype/recursive) font, licensed under the [SIL Open Font License, Version 1.1](./data/OFL.txt).
 
 I've started this project at the _University of Győr, [Design Campus](https://designcampus.hu), Graphic Design MA_ in 2026.
