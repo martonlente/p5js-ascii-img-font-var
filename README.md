@@ -4,7 +4,7 @@ p5js-ascii-img-font-var is a tool for generating ASCII art from images with simp
 
 This repository has been created from the [p5js-sketch-utils](https://github.com/martonlente/p5js-sketch-utils) boilerplate and utilties framework by [Márton Lente](https://github.com/martonlente) (me).
 
-## Demo
+## Visuals
 ![Screen recording](./screen-recording-4x-v2.gif)
 
 ## Description
