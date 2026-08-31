@@ -1,6 +1,6 @@
 # p5js-ascii-img-font-var
 
-p5js-ascii-img-font-var is a tool to for generating ASCII art from images with simple UI controls and variable font support. Unlike traditional ASCII art tools, this project leverages variable font weights for enhanced visual output.
+p5js-ascii-img-font-var is a tool for generating ASCII art from images with simple UI controls and variable font support. Unlike traditional ASCII art tools, this project leverages variable font weights for enhanced visual output.
 
 This repository has been created from the [p5js-sketch-utils](https://github.com/martonlente/p5js-sketch-utils) boilerplate and utilties framework by [Márton Lente](https://github.com/martonlente) (me).
 
