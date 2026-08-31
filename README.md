@@ -4,6 +4,9 @@ p5js-ascii-img-font-var is a tool for generating ASCII art from images with simp
 
 This repository has been created from the [p5js-sketch-utils](https://github.com/martonlente/p5js-sketch-utils) boilerplate and utilties framework by [Márton Lente](https://github.com/martonlente) (me).
 
+## Demo
+![Screen recording](./screen-recording-4x-v2.gif)
+
 ## Description
 I've created this repository to support ASCII based image rasterization in art, design and typography projects, with visual controls. It relies on p5.js v2's variable font support to create ASCII images with variablility in font weight. This allows a combination of character- and font weight based rasterization, and enables finer control over contrast and detail in the final image. This often results in more interesting visual outputs than traditional solely character-based ASCII art.
 
@@ -65,9 +68,6 @@ This project requires Node.js and npm to be installed on your machine.
 --- | ---
 ![Example 2](./example-2.webp) | ![Example 3](./example-3.webp)
 ![Example 4](./example-4.webp) | ![Example 5](./example-5.webp)
-
-## Screen recording
-![Screen recording](./screen-recording-4x-v2.gif)
 
 ## Version
 0.1.0
