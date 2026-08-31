@@ -41,7 +41,7 @@ const sketch = function(p) {
 
     // TODO: add p5js input labels
     // TODO: consider renaming vars input
-    charsInput = p.createInput("//\\\\");
+    charsInput = p.createInput("\\\\//");
     hasFontVariable = p.createCheckbox('Variable font', true);
     isBgTransparent = p.createCheckbox('Transparent background', false);
     isColourInverted = p.createCheckbox('Invert colours', true);
