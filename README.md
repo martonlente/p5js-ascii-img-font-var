@@ -62,7 +62,7 @@ to start the SCSS compiler, and add your changes to the `/scss/custom.scss` file
 ## Dependencies
 This project requires Node.js and npm to be installed on your machine.
 
-## Example
+## Examples
 
 ![Example 1](./example-1.webp) | &nbsp;
 --- | ---
