@@ -5,7 +5,7 @@ p5js-ascii-img-font-var is a tool for generating ASCII art from images with simp
 This repository has been created from the [p5js-sketch-utils](https://github.com/martonlente/p5js-sketch-utils) boilerplate and utilties framework by [Márton Lente](https://github.com/martonlente) (me).
 
 ## Description
-I've created this repository to support ASCII based image rasterization in art, design and typography projects, with visual controls. It relies on p5.js v2's variable font support to create ASCII images with variablility in font weight. This allows a combination of character- and font weight based rasterization, and enables finer control over contrast and detail in the final image. This often results in more interesting visual outputs than traditional ASCII art.
+I've created this repository to support ASCII based image rasterization in art, design and typography projects, with visual controls. It relies on p5.js v2's variable font support to create ASCII images with variablility in font weight. This allows a combination of character- and font weight based rasterization, and enables finer control over contrast and detail in the final image. This often results in more interesting visual outputs than traditional solely character-based ASCII art.
 
 ## Usage
 
@@ -71,7 +71,7 @@ TODO
 ## Credits
 I've started this project at the _University of Győr, [Design Campus](https://designcampus.hu), Graphic Design MA_ in 2026.
 
-The development has been done within the framework of the _Complex Design 2_ course, lead by [Zoltán Halasi](https://www.instagram.com/zedocki/). The program has been first used to generate the vinyl cover artworks for the Hungarian composer _György Kurtág's_ music album compilation (see the _Example_ section for reference).
+The development has been done within the framework of the _Complex Design 2_ course, lead by [Zoltán Halasi](https://www.instagram.com/zedocki/). The program has been first used to generate the vinyl cover artworks for the Hungarian composer _György Kurtág's_ fictitious music album compilation (see the _Example_ section for reference).
 
 ## License
 p5js-ascii-img-font-var is licensed under the [Apache 2.0](https://github.com/martonlente/p5js-ascii-img-font-var/blob/main/LICENSE) license.
