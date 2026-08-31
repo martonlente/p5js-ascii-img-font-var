@@ -73,6 +73,8 @@ This project requires Node.js and npm to be installed on your machine.
 0.1.0
 
 ## Credits
+This project uses the [Recursive](https://github.com/arrowtype/recursive) font, licensed under the [SIL Open Font License, Version 1.1](./data/OFL.txt).
+
 I've started this project at the _University of Győr, [Design Campus](https://designcampus.hu), Graphic Design MA_ in 2026.
 
 The development has been done within the framework of the _Complex Design 2_ course, lead by [Zoltán Halasi](https://www.instagram.com/zedocki/). The program has been first used to generate the vinyl cover artworks for the Hungarian composer _György Kurtág's_ fictitious music album compilation (see the _Example_ section for reference).
