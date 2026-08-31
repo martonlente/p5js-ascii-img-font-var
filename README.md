@@ -10,7 +10,7 @@ This repository has been created from the [p5js-sketch-utils](https://github.com
 ## Description
 I've created this repository to support ASCII based image rasterization in art, design and typography projects, with visual controls. It relies on p5.js v2's variable font support to create ASCII images with variablility in font weight. This allows a combination of character- and font weight based rasterization, and enables finer control over contrast and detail in the final image. This often results in more interesting visual outputs than traditional solely character-based ASCII art.
 
-## Usage
+## Installation
 
 ### Start a project
 To start using the repository, clone it.
@@ -28,6 +28,11 @@ To install the dependencies, navigate to the project directory and run:
 ```
 npm install
 ```
+
+### Requirements
+This project requires Node.js and npm to be installed on your machine.
+
+## Usage
 
 ### Start the dev server
 To start the development server to view and edit your sketches, run:
@@ -58,9 +63,6 @@ If you want to customize the styles of the controls UI, run:
 npm run-script watch
 ```
 to start the SCSS compiler, and add your changes to the `/scss/custom.scss` file.
-
-## Dependencies
-This project requires Node.js and npm to be installed on your machine.
 
 ## Examples
 
